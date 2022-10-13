@@ -2,13 +2,14 @@
 
 /**
  *
- * main- serves at the entry point for the program.
+ * main- entry point.
  *
- * Return:0 if no errors, return non zero if errors
+ * 
+ * Return:always 0 (success)
  *
  */
 
-		int main(void)
+int main(void)
 
 {
 
