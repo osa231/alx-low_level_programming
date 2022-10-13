@@ -2,11 +2,11 @@
 
 /**
  *
- *  *main- Entry point for the program
+ *  *main- Serves as the entry point for the program
  *
  *   *
  *
- *    *Return: Always 0 (Success)
+ *    *Return: By default returns zero if no erros otherwise returns non-zero value.
  *
  *     */
 
