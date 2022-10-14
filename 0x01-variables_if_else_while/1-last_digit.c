@@ -3,10 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Short description, single line
- * a blank line
- * Description: Longer description of the function)?
- * Return: Description of the returned value
+ * main - Entry point of the program
+ * Return: Always 0 (success)
  */
 
 int main(void)
@@ -23,10 +21,9 @@ int main(void)
 	printf("Last digit of %d is %d and is greater than 5\n", n, ldigit);
 		} else if (ldigit == 0)
 		{
-																		printf("Last digit of %d is %d and is 0\n", n, ldigit);
-																			} else if (ldigit < 6 && ldigit != 0)
-																			{
-																		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ldigit);
-																				}
-																			return (0);
+	pintf("Last digit of %d is %d and is 0\n", n, ldigit);
+	} else if (ldigit < 6 && ldigit != 0)
+	{																	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ldigit);
+	}
+	return (0);
 }
