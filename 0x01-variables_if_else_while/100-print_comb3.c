@@ -14,8 +14,8 @@ int main(void)
 		{
 		if (i != j)
 		{
-		putchar(i)
-		putchar(j)
+		putchar(i);
+		putchar(j);
 		}
 		if (i == j)
 		{
