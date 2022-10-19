@@ -3,7 +3,7 @@
  * _islower - function to check c for lowercase character
  * Return: 1 if char is lowercase, else 0
  */
-int _islower(void)
+void _islower(void)
 {
 	int c;
 
