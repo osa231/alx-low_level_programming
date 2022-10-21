@@ -10,8 +10,8 @@ void print_numbers(void)
 
 	for (ch = '0'; ch <= '9'; ch++)
 	{
-	putchar(ch);
+	_putchar(ch);
 	}
 
-	putchar ('\n');
+	_putchar ('\n');
 }
